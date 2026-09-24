@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Ayda Alicia Chacón Jimbo — Arquitecta</title>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container site-header__inner">
+			<div class="site-header__brand">
+				<h1 class="site-header__title">Ayda Alicia <span class="site-header__name">Chacón Jimbo</span></h1>
+				<p class="site-header__subtitle">Arquitecta | Diseño residencial & comercial</p>
+			</div>
+			<nav class="site-nav">
+				<a href="#about" class="site-nav__link">Sobre mí</a>
+				<a href="#projects" class="site-nav__link">Proyectos</a>
+				<a href="#services" class="site-nav__link">Servicios</a>
+				<a href="#contact" class="site-nav__link site-nav__link--cta">Contactar</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="container hero__inner">
+				<div class="hero__content">
+					<h2 class="hero__title">Arquitectura con visión humana y detalle técnico</h2>
+					<p class="hero__text">Diseños sostenibles, espacios que inspiran y soluciones constructivas pensadas para cada cliente.</p>
+					<a href="#contact" class="button button--primary">Solicitar consulta</a>
+				</div>
+				<div class="hero__image" aria-hidden="true"></div>
+			</div>
+		</section>
+
+
+		<section id="about" class="container about">
+			<div class="about__text">
+				<h3 class="about__title">Sobre Ayda</h3>
+				<p class="about__description">Ayda Alicia Chacón Jimbo es una arquitecta dedicada a crear espacios funcionales y estéticos. Con experiencia en proyectos residenciales y comerciales, su enfoque combina sensibilidad por el contexto, uso eficiente del espacio y atención al detalle constructivo.</p>
+				<ul class="about__highlights">
+					<li>Dirección de proyecto</li>
+					<li>Diseño arquitectónico y conceptual</li>
+					<li>Supervisión de obra y coordinación técnica</li>
+				</ul>
+			</div>
+			<aside class="about__card">
+				<h4 class="about__card-title">¿Por qué elegirla?</h4>
+				<p class="about__card-text">Compromiso con la calidad, comunicación clara con el cliente y propuestas creativas que respetan presupuesto y plazos.</p>
+				<div class="about__contact">
+					<a href="mailto:aydaly_83@hotmail.com">aydaly_83@hotmail.com</a>
+					<a href="#contact">Ver contacto</a>
+				</div>
+			</aside>
+		</section>
+
+		<section id="projects" class="container projects">
+			<h3 class="projects__title">Algunos proyectos</h3>
+			<p class="text text--muted">(Reemplaza estas tarjetas con tus proyectos y fotos. Añade título, año y breve descripción.)</p>
+			<div class="projects__grid">
+				<article class="project-card" tabindex="0" role="button" aria-expanded="false">
+					<div class="project-card__media">
+						<img src="CASA%20CAMPOVERDE2.jpg" alt="Proyecto 1" class="project-card__image">
+					</div>
+					<div class="project-card__body">
+						<h4 class="project-card__title">Proyecto Ejemplo 1</h4>
+						<p class="project-card__meta">Residencial — 2025</p>
+						<p class="project-card__description">Breve descripción del proyecto. Sustituye por tu texto.</p>
+					</div>
+				</article>
+				<article class="project-card" tabindex="0" role="button" aria-expanded="false">
+					<div class="project-card__media">
+						<img src="Casa%20Loja%2005-2022.jpg" alt="Proyecto 2" class="project-card__image">
+					</div>
+					<div class="project-card__body">
+						<h4 class="project-card__title">Proyecto Ejemplo 2</h4>
+						<p class="project-card__meta">Comercial — 2024</p>
+						<p class="project-card__description">Breve descripción del proyecto. Sustituye por tu texto.</p>
+					</div>
+				</article>
+				<article class="project-card" tabindex="0" role="button" aria-expanded="false">
+					<div class="project-card__media">
+						<img src="Proyecto%20Luna%2001-2026.jpg" alt="Proyecto 3" class="project-card__image">
+					</div>
+					<div class="project-card__body">
+						<h4 class="project-card__title">Proyecto Ejemplo 3</h4>
+						<p class="project-card__meta">Renovación — 2023</p>
+						<p class="project-card__description">Breve descripción del proyecto. Sustituye por tu texto.</p>
+					</div>
+				</article>
+			</div>
+		</section>
+		
+		<!-- Sección: Sistema de patrimonio seguro -->
+		<section id="patrimonio" class="container heritage-section">
+			<button class="heritage-card" type="button" aria-label="Mostrar la segunda imagen del Sistema Patrimonio Seguro" aria-pressed="false">
+				<span class="heritage-card__inner">
+					<span class="heritage-card__face heritage-card__face--front">
+						<img src="sistema%20patrimonio%20seguro.jpg" alt="Sistema Patrimonio Seguro, imagen principal" class="heritage-card__image">
+					</span>
+					<span class="heritage-card__face heritage-card__face--back" aria-hidden="true">
+						<img src="sistema%20patrimonio%20seguro2.jpeg" alt="Sistema Patrimonio Seguro, segunda imagen" class="heritage-card__image">
+					</span>
+				</span>
+			</button>
+		</section>
+
+		<section id="contact" class="container contact">
+			<h3 class="contact__title">Contacto</h3>
+			<p class="contact__intro">Interesado en trabajar con Ayda? Rellena los datos o escríbele directamente.</p>
+			<div class="contact__grid">
+				<!-- Embedded external form (forms.app) -->
+				<div class="contact-form">
+					<iframe class="contact-form__iframe" data-formsapp-src="https://share.forms.app/form/6a7e65923176fee87c6705e2" title="Formulario de Contacto para Propietarios - Made with forms.app" scrolling="no"></iframe>
+					<script src="https://cdn.formsapp.io/embed.js" type="text/javascript" async defer onload="new formsapp('6a7e65923176fee87c6705e2', 'standard', {'width':'100%','height':'1300px','opacity':0}, 'https://share.forms.app');"></script>
+				</div>
+				<aside class="contact__gallery" aria-label="Imágenes de referencia">
+					<img src="Relleno1.png" alt="Imagen de referencia 1" class="contact__gallery-image">
+					<img src="Relleno2.jpg" alt="Imagen de referencia 2" class="contact__gallery-image">
+				</aside>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container site-footer__inner">
+			<p>© <span id="year"></span> Ayda Alicia Chacón Jimbo — Arquitecta</p>
+			<p class="text text--muted">Diseño y dirección creativa</p>
+		</div>
+	</footer>
+
+	<script>
+		document.getElementById('year').textContent = new Date().getFullYear();
+
+		const siteHeader = document.querySelector('.site-header');
+		let lastScrollPosition = window.scrollY;
+		let scrollTicking = false;
+
+		const updateHeaderVisibility = () => {
+			const currentScrollPosition = window.scrollY;
+			const scrollDifference = currentScrollPosition - lastScrollPosition;
+
+			if (currentScrollPosition <= 20 || scrollDifference < 0) {
+				siteHeader.classList.remove('site-header--hidden');
+			} else if (scrollDifference > 0) {
+				siteHeader.classList.add('site-header--hidden');
+			}
+
+			lastScrollPosition = currentScrollPosition;
+			scrollTicking = false;
+		};
+
+		window.addEventListener('scroll', () => {
+			if (!scrollTicking) {
+				window.requestAnimationFrame(updateHeaderVisibility);
+				scrollTicking = true;
+			}
+		}, { passive: true });
+
+		const heritageCard = document.querySelector('.heritage-card');
+		const heritageFront = heritageCard.querySelector('.heritage-card__face--front');
+		const heritageBack = heritageCard.querySelector('.heritage-card__face--back');
+
+		heritageCard.addEventListener('click', () => {
+			const isFlipped = heritageCard.classList.toggle('heritage-card--flipped');
+			heritageFront.setAttribute('aria-hidden', isFlipped);
+			heritageBack.setAttribute('aria-hidden', !isFlipped);
+			heritageCard.setAttribute(
+				'aria-pressed',
+				isFlipped
+			);
+		});
+
+		const projectsGrid = document.querySelector('.projects__grid');
+		const projectCards = document.querySelectorAll('.project-card');
+
+		const toggleProjectCard = (selectedCard) => {
+			const isActive = selectedCard.classList.contains('project-card--active');
+
+			projectCards.forEach((projectCard) => {
+				projectCard.classList.toggle('project-card--active', projectCard === selectedCard && !isActive);
+				projectCard.setAttribute('aria-expanded', projectCard === selectedCard && !isActive);
+			});
+
+			projectsGrid.classList.toggle('projects__grid--has-active', !isActive);
+		};
+
+		projectCards.forEach((projectCard) => {
+			projectCard.addEventListener('click', () => toggleProjectCard(projectCard));
+			projectCard.addEventListener('keydown', (event) => {
+				if (event.key === 'Enter' || event.key === ' ') {
+					event.preventDefault();
+					toggleProjectCard(projectCard);
+				}
+			});
+		});
+	</script>
+
+
+
+</body>
+</html>
